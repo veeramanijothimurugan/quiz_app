@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "question": "What is the syntax for creating a functional component in React?",
+      "options": [
+        "class MyComponent extends React.Component {}",
+        "function MyComponent() { return (<h1>Hello World!</h1>); }",
+        "const MyComponent = React.createClass({ render() { ... } });",
+        "var MyComponent = new React.Component({ ... });"
+      ],
+      "correct_option": "function MyComponent() { return (<h1>Hello World!</h1>); }"
+    },
+    {
+      "id": 2,
+      "question": "What is JSX in React?",
+      "options": [
+        "A templating language for writing HTML within JavaScript",
+        "A styling language for React components",
+        "A data binding library for React",
+        "A state management library for React"
+      ],
+      "correct_option": "A templating language for writing HTML within JavaScript"
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of props in React?",
+      "options": [
+        "To define the internal state of a component",
+        "To pass data from a parent component to a child component",
+        "To manage side effects in a component",
+        "To handle user interactions within a component"
+      ],
+      "correct_option": "To pass data from a parent component to a child component"
+    },
+    {
+      "id": 4,
+      "question": "What is the recommended way to manage component state in React?",
+      "options": [
+        "Using global variables",
+        "Using the DOM directly",
+        "Using the state hook (useState)",
+        "Using a state management library like Redux"
+      ],
+      "correct_option": "Using the state hook (useState)"
+    },
+    {
+      "id": 5,
+      "question": "What lifecycle method is called after a component updates?",
+      "options": [
+        "componentDidMount",
+        "shouldComponentUpdate",
+        "componentDidUpdate",
+        "componentWillUnmount"
+      ],
+      "correct_option": "componentDidUpdate"
+    },
+    {
+      "id": 6,
+      "question": "What is the virtual DOM in React?",
+      "options": [
+        "The actual DOM tree in the browser",
+        "An in-memory representation of the UI",
+        "A library for manipulating the DOM",
+        "A tool for optimizing component performance"
+      ],
+      "correct_option": "An in-memory representation of the UI"
+    },
+    {
+      "id": 7,
+      "question": "What is the role of a key prop in a list of elements?",
+      "options": [
+        "To style individual list items",
+        "To identify unique items for efficient rendering",
+        "To pass data to child components within the list",
+        "To control the order of elements in the list"
+      ],
+      "correct_option": "To identify unique items for efficient rendering"
+    },
+    {
+      "id": 8,
+      "question": "What is a common way to handle user input in React?",
+      "options": [
+        "Using document.getElementById",
+        "Using event listeners with event handlers",
+        "Using DOM manipulation libraries like jQuery",
+        "Using built-in browser input elements"
+      ],
+      "correct_option": "Using event listeners with event handlers"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the `npm start` command in a React project?",
+      "options": [
+        "To install dependencies from the package.json file",
+        "To build the production version of the React application",
+        "To run a development server for the React application",
+        "To test the React application"
+      ],
+      "correct_option": "To run a development server for the React application"
+    },
+    {
+      "id": 10, "question": "What are some popular tools for building user interfaces with React?",
+      "options": [
+        "HTML, CSS, and JavaScript",
+        "React Router and Redux",
+        "Material-UI and Bootstrap",
+        "All of the above"
+      ],
+      "correct_option": "All of the above"
+    }
+]  
