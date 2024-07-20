@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "../components/home.css";
 import data from "../assets/data.json";
-import scoreimg from "../assets/score.png";
+import scoreimg from "../assets/celebrate.png";
+import correct from "../assets/check.png";
+import wrong from "../assets/wrong.png"
 
 const Home = ({ input }) => {
   const [currQus, setCurrQur] = useState(0);
@@ -30,7 +32,7 @@ const Home = ({ input }) => {
       {!showScore ? (
         <div className="container">
           <div className="user">
-            <p>Hello {input}, here is your questions.,</p>
+            <h4>Hello {input}, here is your question</h4>
           </div>
           <div className="qus-card">
             <div
@@ -62,8 +64,16 @@ const Home = ({ input }) => {
         </div>
       ) : (
         <div className="qus-card">
+          <h4>YOUR SCORE</h4>
           <img src={scoreimg} alt="score" />
-          <h2>Your score is {score}</h2>
+          <h2 className="scoreDisplay">{score}</h2>
+          <h2 className="cele">Congratulations!</h2>
+          <div className="ans">
+            <span><img className="icon" src={correct} alt="" /> {score} Correct</span>
+            <span><img className="icon" src={wrong} alt="" /> {(data.length)-score} Incorrect</span>
+          </div>
+          <p className="showAns">See answers</p>
+          <button className="repeat">Reattempt</button>
         </div>
       )}
     </>
