@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "question": "What is the difference between '==' and 'equals()' in Java?",
+      "options": [
+        "Both check for reference equality",
+        "Both check for value equality",
+        "==' checks for reference equality, equals() checks for value equality",
+        "==' checks for value equality, equals() checks for reference equality"
+      ],
+      "correct_option": "==' checks for reference equality, equals() checks for value equality"
+    },
+    {
+      "id": 2,
+      "question": "What is the purpose of the 'final' keyword in Java?",
+      "options": [
+        "Makes a variable immutable",
+        "Makes a method final",
+        "Makes a class final",
+        "All of the above"
+      ],
+      "correct_option": "All of the above"
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used for inheritance in Java?",
+      "options": [
+        "implements",
+        "extends",
+        "inherits",
+        "uses"
+      ],
+      "correct_option": "extends"
+    },
+    {
+      "id": 4,
+      "question": "What is the default access modifier in Java?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "default"
+      ],
+      "correct_option": "default"
+    },
+    {
+      "id": 5,
+      "question": "What is the difference between an array and an ArrayList?",
+      "options": [
+        "Array is fixed size, ArrayList is dynamic",
+        "Array can store only primitive data types, ArrayList can store any type",
+        "Array is slower than ArrayList",
+        "There is no difference"
+      ],
+      "correct_option": "Array is fixed size, ArrayList is dynamic"
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the 'try-catch' block in Java?",
+      "options": [
+        "To handle exceptions",
+        "To improve code readability",
+        "To optimize code performance",
+        "To create custom exceptions"
+      ],
+      "correct_option": "To handle exceptions"
+    },
+    {
+      "id": 7,
+      "question": "What is the output of the following code:\n```java\nint x = 10;\nSystem.out.println(x++);\n```",
+      "options": [
+        "10",
+        "11",
+        "An error",
+        "None of the above"
+      ],
+      "correct_option": "10"
+    },
+    {
+      "id": 8,
+      "question": "What is the keyword used to create an interface in Java?",
+      "options": [
+        "interface",
+        "abstract",
+        "implements",
+        "extends"
+      ],
+      "correct_option": "interface"
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between 'throw' and 'throws' keywords in Java?",
+      "options": [
+        "Both are used for exception handling",
+        "throw is used to manually throw an exception, throws is used to declare potential exceptions",
+        "There is no difference",
+        "throw is used for checked exceptions, throws is used for unchecked exceptions"
+      ],
+      "correct_option": "throw is used to manually throw an exception, throws is used to declare potential exceptions"
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of the 'finally' block in Java?",
+      "options": [
+        "To handle exceptions",
+        "To release resources",
+        "To execute code unconditionally after try-catch blocks",
+        "To create custom exceptions"
+      ],
+      "correct_option": "To execute code unconditionally after try-catch blocks"
+    }
+  ]
+  

@@ -85,7 +85,7 @@ input::placeholder{
 }
 
 
-.btn{
+.start-btn{
     margin-top: 10px;
     width: 220px;
     padding: 10px 15px;
@@ -97,7 +97,7 @@ input::placeholder{
     transition: .5s;
 }
 
-.btn:hover{
+.start-btn:hover{
     background-color: transparent;
     color: black;
 }

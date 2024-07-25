@@ -1,21 +1,19 @@
 import React, { useState } from "react";
 import "../components/home.css";
-import data from "../assets/data.json";
-import scoreimg from "../assets/celebrate.png";
-import correct from "../assets/check.png";
-import wrong from "../assets/wrong.png"
+import ScoreCard from "./ScoreCard";
 
-const Home = ({ input }) => {
+const Home = ({ input, data}) => {
   const [currQus, setCurrQur] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [timer, setTimer] = useState(100);
   const [score, setScore] = useState(0);
   const [length, setLength] = useState(1);
+  const yourAnswer =[];
 
   const calcScore = (e) =>{
     let ans=e.target.value;
-    console.log(ans);
-    console.log(score);
+    yourAnswer.push(ans);
+    console.log(yourAnswer);
     if(ans===data[currQus].correct_option){
       setScore(score+1);
     }
@@ -26,13 +24,12 @@ const Home = ({ input }) => {
   }
 
 
-
   return (
     <>
       {!showScore ? (
-        <div className="container">
-          <div className="user">
-            <h4>Hello {input}, here is your question</h4>
+        <div className="home-container">
+          <div>
+            <h4 className="user">Hello {input}, here is your question</h4>
           </div>
           <div className="qus-card">
             <div
@@ -63,18 +60,7 @@ const Home = ({ input }) => {
           </div>
         </div>
       ) : (
-        <div className="qus-card">
-          <h4>YOUR SCORE</h4>
-          <img src={scoreimg} alt="score" />
-          <h2 className="scoreDisplay">{score}</h2>
-          <h2 className="cele">Congratulations!</h2>
-          <div className="ans">
-            <span><img className="icon" src={correct} alt="" /> {score} Correct</span>
-            <span><img className="icon" src={wrong} alt="" /> {(data.length)-score} Incorrect</span>
-          </div>
-          <p className="showAns">See answers</p>
-          <button className="repeat">Reattempt</button>
-        </div>
+        <ScoreCard score={score} data={data}/>
       )}
     </>
   );
