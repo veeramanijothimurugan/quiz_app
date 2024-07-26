@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "type": "question",
+    "question": "What is the primary use of the 'Frame' tool in Figma?",
+    "options": [
+      "To create shapes",
+      "To group layers",
+      "To draw text",
+      "To create interactive components"
+    ],
+    "correct_option": "To group layers"
+  },
+  {
+    "id": "2",
+    "type": "question",
+    "question": "Which tool in Figma is used to create vector shapes?",
+    "options": [
+      "Frame tool",
+      "Pen tool",
+      "Slice tool",
+      "Rectangle tool"
+    ],
+    "correct_option": "Pen tool"
+  },
+  {
+    "id": "3",
+    "type": "question",
+    "question": "What is the shortcut for duplicating a layer in Figma?",
+    "options": [
+      "Ctrl + D (Windows) / Cmd + D (Mac)",
+      "Ctrl + C (Windows) / Cmd + C (Mac)",
+      "Ctrl + V (Windows) / Cmd + V (Mac)",
+      "Ctrl + X (Windows) / Cmd + X (Mac)"
+    ],
+    "correct_option": "Ctrl + D (Windows) / Cmd + D (Mac)"
+  },
+  {
+    "id": "4",
+    "type": "question",
+    "question": "How can you share a Figma file with others for collaboration?",
+    "options": [
+      "By exporting the file",
+      "By sharing a link",
+      "By emailing the file",
+      "By printing the file"
+    ],
+    "correct_option": "By sharing a link"
+  },
+  {
+    "id": "5",
+    "type": "question",
+    "question": "What is the purpose of the 'Prototype' tab in Figma?",
+    "options": [
+      "To create and manage layers",
+      "To add and edit vector shapes",
+      "To create interactive designs",
+      "To adjust the document settings"
+    ],
+    "correct_option": "To create interactive designs"
+  },
+  {
+    "id": "6",
+    "type": "question",
+    "question": "Which feature allows you to maintain consistency across multiple frames in Figma?",
+    "options": [
+      "Groups",
+      "Components",
+      "Layers",
+      "Grids"
+    ],
+    "correct_option": "Components"
+  },
+  {
+    "id": "7",
+    "type": "question",
+    "question": "How do you create a new page in a Figma file?",
+    "options": [
+      "Right-click in the layers panel and select 'New Page'",
+      "Use the 'New Page' button in the toolbar",
+      "Go to File > New Page",
+      "Use the Pages panel at the top left of the Figma interface"
+    ],
+    "correct_option": "Use the Pages panel at the top left of the Figma interface"
+  },
+  {
+    "id": "8",
+    "type": "question",
+    "question": "What is the benefit of using 'Auto Layout' in Figma?",
+    "options": [
+      "It helps to automatically resize frames",
+      "It enables responsive design",
+      "It simplifies layer management",
+      "It allows for better text formatting"
+    ],
+    "correct_option": "It enables responsive design"
+  },
+  {
+    "id": "9",
+    "type": "question",
+    "question": "Which Figma feature allows real-time collaboration?",
+    "options": [
+      "Prototyping",
+      "Components",
+      "Comments",
+      "Multiplayer editing"
+    ],
+    "correct_option": "Multiplayer editing"
+  },
+  {
+    "id": "10",
+    "type": "question",
+    "question": "How can you export a design from Figma?",
+    "options": [
+      "By using the 'Export' option in the File menu",
+      "By right-clicking the layer and selecting 'Export'",
+      "By using the Export panel on the right sidebar",
+      "All of the above"
+    ],
+    "correct_option": "All of the above"
+  }
+]

@@ -2,7 +2,7 @@
     background-color: #fff;
     flex-direction: column;
     text-align: center;
-    width: 400px;
+    width: fit-content;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -11,7 +11,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 .re-btn{
@@ -40,7 +39,7 @@
 
 .scoreDisplay{
     position: absolute;
-    top: 40%;
+    top: 26%;
     left: 50%;
     font-size: 50px;
     font-weight: 600;
@@ -61,4 +60,13 @@
 
 span{
     margin: 10px;
+}
+
+.timer{
+    float: right;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
 }

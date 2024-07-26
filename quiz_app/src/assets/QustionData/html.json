@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "type": "question",
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinking Text Markup Language"
+    ],
+    "correct_option": "Hyper Text Markup Language"
+  },
+  {
+    "id": "2",
+    "type": "question",
+    "question": "Which HTML element is used for the largest heading?",
+    "options": [
+      "<h1>",
+      "<head>",
+      "<h6>",
+      "<header>"
+    ],
+    "correct_option": "<h1>"
+  },
+  {
+    "id": "3",
+    "type": "question",
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": [
+      "<br>",
+      "<break>",
+      "<lb>",
+      "<linebreak>"
+    ],
+    "correct_option": "<br>"
+  },
+  {
+    "id": "4",
+    "type": "question",
+    "question": "Which HTML element is used to define the body of the document?",
+    "options": [
+      "<body>",
+      "<head>",
+      "<html>",
+      "<title>"
+    ],
+    "correct_option": "<body>"
+  },
+  {
+    "id": "5",
+    "type": "question",
+    "question": "How can you create an unordered list in HTML?",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<list>",
+      "<u>"
+    ],
+    "correct_option": "<ul>"
+  },
+  {
+    "id": "6",
+    "type": "question",
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": [
+      "class",
+      "style",
+      "styles",
+      "font"
+    ],
+    "correct_option": "style"
+  },
+  {
+    "id": "7",
+    "type": "question",
+    "question": "What is the correct HTML element for inserting an image?",
+    "options": [
+      "<img>",
+      "<image>",
+      "<pic>",
+      "<picture>"
+    ],
+    "correct_option": "<img>"
+  },
+  {
+    "id": "8",
+    "type": "question",
+    "question": "Which HTML element is used to specify a footer for a document or section?",
+    "options": [
+      "<footer>",
+      "<bottom>",
+      "<section>",
+      "<foot>"
+    ],
+    "correct_option": "<footer>"
+  },
+  {
+    "id": "9",
+    "type": "question",
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "options": [
+      "<a url='http://example.com'>Example</a>",
+      "<a href='http://example.com'>Example</a>",
+      "<link href='http://example.com'>Example</link>",
+      "<a>http://example.com</a>"
+    ],
+    "correct_option": "<a href='http://example.com'>Example</a>"
+  },
+  {
+    "id": "10",
+    "type": "question",
+    "question": "Which HTML element is used to specify a section of the document?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<article>",
+      "<header>"
+    ],
+    "correct_option": "<section>"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "type": "question",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "correct_option": "Cascading Style Sheets"
+  },
+  {
+    "id": "2",
+    "type": "question",
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": [
+      "class",
+      "styles",
+      "style",
+      "font"
+    ],
+    "correct_option": "style"
+  },
+  {
+    "id": "3",
+    "type": "question",
+    "question": "Which property is used to change the background color in CSS?",
+    "options": [
+      "color",
+      "bgcolor",
+      "background-color",
+      "background"
+    ],
+    "correct_option": "background-color"
+  },
+  {
+    "id": "4",
+    "type": "question",
+    "question": "How do you add a shadow to a text in CSS?",
+    "options": [
+      "text-shadow",
+      "font-shadow",
+      "text-style",
+      "shadow"
+    ],
+    "correct_option": "text-shadow"
+  },
+  {
+    "id": "5",
+    "type": "question",
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "foreground-color"
+    ],
+    "correct_option": "color"
+  },
+  {
+    "id": "6",
+    "type": "question",
+    "question": "How do you make each word in a text start with a capital letter in CSS?",
+    "options": [
+      "text-transform: capitalize",
+      "text-transform: uppercase",
+      "text-transform: lowercase",
+      "transform: capitalize"
+    ],
+    "correct_option": "text-transform: capitalize"
+  },
+  {
+    "id": "7",
+    "type": "question",
+    "question": "How do you select an element with the id 'header' in CSS?",
+    "options": [
+      "#header",
+      ".header",
+      "header",
+      "id.header"
+    ],
+    "correct_option": "#header"
+  },
+  {
+    "id": "8",
+    "type": "question",
+    "question": "Which property is used to change the font of an element in CSS?",
+    "options": [
+      "font-family",
+      "font-style",
+      "font-weight",
+      "font-size"
+    ],
+    "correct_option": "font-family"
+  },
+  {
+    "id": "9",
+    "type": "question",
+    "question": "How do you make a list not display bullet points in CSS?",
+    "options": [
+      "list-style-type: none",
+      "text-decoration: none",
+      "list-type: none",
+      "display: none"
+    ],
+    "correct_option": "list-style-type: none"
+  },
+  {
+    "id": "10",
+    "type": "question",
+    "question": "How do you add padding to an element in CSS?",
+    "options": [
+      "padding: 20px",
+      "margin: 20px",
+      "padding-left: 20px",
+      "spacing: 20px"
+    ],
+    "correct_option": "padding: 20px"
+  }
+]

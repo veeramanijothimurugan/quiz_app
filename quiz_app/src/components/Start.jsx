@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from "./Home";
 import "../components/start.css";
 import Answer from "./Answer";
@@ -9,16 +9,17 @@ const Start = () => {
   const [homeDisplay, setHomeDisplay] = useState(false);
   const [input, setInput] = useState("");
   const [email, setEmail] = useState("");
+  const [alart,setAlart] = useState("");
 
   const Validation = () => {
-    if (input === "") {
-      alert("Please enter your name.");
+    if(email=== ""&&input==="") {
+      setAlart("You should enter the details.");
       setHomeDisplay(false);
     } else if (email === "") {
-      alert("Please enter your email.");
+      setAlart("Please enter your email.");
       setHomeDisplay(false);
-    } else if(email=== ""&&input===""){
-      alert("You should enter the details.");
+    } else if(input === ""){
+      setAlart("Please enter your name.");
       setHomeDisplay(false);
     }
   };
@@ -62,6 +63,7 @@ const Start = () => {
                 }}
               />
               <br />
+              <p className="alart">{alart}</p>
               <button
                 className="start-btn"
                 onClick={() => {

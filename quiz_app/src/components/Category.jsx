@@ -11,7 +11,10 @@ import "../components/category.css";
 
 import data from "../assets/QustionData/data.json"
 import JavaData from "../assets/QustionData/JavaData.json"
-
+import figmaData from "../assets/QustionData/figma.json"
+import htmlData from "../assets/QustionData/html.json"
+import cssData from "../assets/QustionData/css.json"
+import jsData from "../assets/QustionData/js.json"
 
 
 const Category = ({input}) => {
@@ -41,7 +44,7 @@ const Category = ({input}) => {
               <p>Java</p>
             </div>
           </div>
-          <div className="cat-card col">
+          <div className="cat-card col" onClick={() => CategoryOption(figmaData)}>
             <img className="cat-img" src={figma} alt="" />
             <div className="cat-btn">
               <p>Figma</p>
@@ -49,19 +52,19 @@ const Category = ({input}) => {
           </div>
         </div>
         <div className="row">
-          <div className="cat-card col">
+          <div className="cat-card col" onClick={() => CategoryOption(htmlData)}>
             <img className="cat-img" src={html} alt="" />
             <div className="cat-btn">
               <p>HTML</p>
             </div>
           </div>
-          <div className="cat-card col">
+          <div className="cat-card col" onClick={() => CategoryOption(cssData)}>
             <img className="cat-img" src={css} alt="" />
             <div className="cat-btn">
               <p>CSS</p>
             </div>
           </div>
-          <div className="cat-card col">
+          <div className="cat-card col" onClick={() => CategoryOption(jsData)}>
             <img className="cat-img" src={js} alt="" />
             <div className="cat-btn">
               <p>Js</p>

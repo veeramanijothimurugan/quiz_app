@@ -8,10 +8,9 @@ body{
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     text-align: center;
+    height: 100vh;
 }
-
 
 .qus-card{
     padding: 30px;
@@ -111,4 +110,11 @@ img{
 .showAns{
     margin-top: 0px;
     cursor: pointer;
+}
+
+.buzzer{
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
 }

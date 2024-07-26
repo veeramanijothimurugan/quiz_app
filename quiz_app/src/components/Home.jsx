@@ -1,19 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../components/home.css";
 import ScoreCard from "./ScoreCard";
 
 const Home = ({ input, data}) => {
   const [currQus, setCurrQur] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [timer, setTimer] = useState(100);
+  const [timer, setTimer] = useState(60);
   const [score, setScore] = useState(0);
   const [length, setLength] = useState(1);
-  const yourAnswer =[];
+  const [yourAnswer,setYourAnswer] = useState([]);
 
   const calcScore = (e) =>{
     let ans=e.target.value;
-    yourAnswer.push(ans);
-    console.log(yourAnswer);
+    setYourAnswer(yourAnswer.concat(ans));
     if(ans===data[currQus].correct_option){
       setScore(score+1);
     }
@@ -23,13 +22,26 @@ const Home = ({ input, data}) => {
     }
   }
 
+  useEffect(()=>{
+    let intervel;
+    if(timer>0&&!showScore){
+      intervel = setInterval(()=>{
+        setTimer((prevTimer) => prevTimer - 1);
+      },1000);
+    }else{
+      clearInterval(intervel);
+      setShowScore(true);
+    }
+    return ()=> clearInterval(intervel);
+  },[timer,showScore]);
+
 
   return (
     <>
       {!showScore ? (
         <div className="home-container">
           <div>
-            <h4 className="user">Hello {input}, here is your question</h4>
+            <h4 className="user">Hello {input}, here is your question and<br /> you have <span className="buzzer">{timer}</span>seconds more..</h4>
           </div>
           <div className="qus-card">
             <div
@@ -60,7 +72,7 @@ const Home = ({ input, data}) => {
           </div>
         </div>
       ) : (
-        <ScoreCard score={score} data={data}/>
+        <ScoreCard score={score} data={data} yourAnswer={yourAnswer}/>
       )}
     </>
   );
