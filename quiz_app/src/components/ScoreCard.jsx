@@ -35,7 +35,7 @@ const ScoreCard = ({ score, data, yourAnswer }) => {
             >
               View answers
             </p>
-              <button className="re-btn" onClick={()=>{window.open("/quiz")}}>Reattempt</button>
+              <button className="re-btn" onClick={()=>{window.open("/")}}>Reattempt</button>
           </div>
         ) : (
           <Answer data={data} yourAnswer={yourAnswer} />
